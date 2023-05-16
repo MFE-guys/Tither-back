@@ -26,4 +26,5 @@ Finally, we have the "Data" folder, which contains files related to the data lay
 
 Please refer to this folder structure to understand how the code is organized and how to find specific files related to different parts of the application.
 
+
 ![folder structure](https://i.imgur.com/8imHxS5.png)
