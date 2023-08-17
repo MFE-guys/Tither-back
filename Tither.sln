@@ -8,6 +8,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Domain", "02 - Domain", "{858A7639-06C4-47BB-ADF1-2D85AEB9BD7C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Infra", "03 - Infra", "{FEEBB97F-392A-44E4-8237-B7F07298C0AC}"
+	ProjectSection(SolutionItems) = preProject
+		src\Tither.Domain\RequestHandlers\SaveNewMemberRequestHandler.cs = src\Tither.Domain\RequestHandlers\SaveNewMemberRequestHandler.cs
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.02 - Data", "03.02 - Data", "{A1976669-35D6-4C95-8357-87B33365C246}"
 EndProject
@@ -33,7 +36,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tither.Domain", "src\Tither
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tither.Api", "src\Tither.Api\Tither.Api.csproj", "{4542BE99-FF1B-47A8-BD0D-67E2F92306A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tither.Shared.UnitTests", "Tests\Tither.Shared.UnitTests\Tither.Shared.UnitTests.csproj", "{3537A813-1DA1-4C7D-B64F-A6B075DF1999}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tither.Shared.UnitTests", "Tests\Tither.Shared.UnitTests\Tither.Shared.UnitTests.csproj", "{3537A813-1DA1-4C7D-B64F-A6B075DF1999}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

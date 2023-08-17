@@ -23,7 +23,7 @@ namespace Tither.Api.Controllers
             => await _mediator.Send(request).ConfigureAwait(false) switch
             {
                 (true, _) => StatusCode(statusCode),
-                (_, var error) => HandleError(error)
+                (_, var error) => HandleError(error!)
             };
 
         private IActionResult HandleError(Exception error)
